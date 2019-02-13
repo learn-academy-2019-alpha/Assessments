@@ -1,6 +1,4 @@
-# Assessments-2018
-
-Assessments for combined curriculum of 2018
+# Assessments
 
 ## Get the Assessments to your computer:
 
