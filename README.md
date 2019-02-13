@@ -29,5 +29,5 @@
 
 1. Copy the url for your organization's assessments repo
 2. Make sure you are on branch master (`git checkout` into master on your machine)
-3. Run `git remote add upstream https://github.com/LEARNAcademy/Assessments-2018.git`
+3. Run `git remote add upstream <pasted url>`
 4. Run `git pull upstream master` to get remote changes
