@@ -1,5 +1,3 @@
-# This is practice! 
-
 Follow the steps in the readme of this repo, or the instructions in the curriculum to get setup with a fork of this repo.
 
 Answer these questions, then follow the instructions to submit your first assessment!
