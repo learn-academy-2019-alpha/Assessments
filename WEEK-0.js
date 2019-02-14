@@ -37,11 +37,11 @@ if (imLost || imFrustrated) {
 
 // 5. Update the imLost and imFrustated variables above the statement to the values required to log "Keep coding!"
 
-// 6. Recall the mantra variable from the first question. Write the code that logs each letter of mantra in two different ways:
+// 6a. Recall the mantra variable from the first question. Write the code that logs each letter of mantra using a for loop.
 
-// 6a. Using a loop:
+// 6b. (Stretch) Using a while loop.
 
-// 6b. Using forEach():
+// 6c. (Super Stretch) Using forEach()
 
 // Consider the following variable:
 
