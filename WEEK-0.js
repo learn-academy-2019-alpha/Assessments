@@ -41,7 +41,7 @@ if (imLost || imFrustrated) {
 
 // 6b. (Stretch) Using a while loop.
 
-// 6c. (Super Stretch) Using forEach()
+// 6c. (Super Stretch) Using forEach().
 
 // Consider the following variable:
 
