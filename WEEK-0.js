@@ -39,9 +39,9 @@ if (imLost || imFrustrated) {
 
 // 6a. Recall the mantra variable from the first question. Write the code that logs each letter of mantra using a for loop.
 
-// 6b. (Stretch) Using a while loop.
+// Stretch: Using a while loop.
 
-// 6c. (Super Stretch) Using forEach().
+// Super Stretch: Using forEach().
 
 // Consider the following variable:
 
@@ -52,3 +52,9 @@ var message = "thisisateststring"
 // Stretch: Update your function to throw an exception if the argument is not a string.
 
 // Super Duper Stretch: Update your function to throw a TypeError if the argument is not a string.
+
+// Consider the following variable:
+
+var toonimals = [ {name: 'Itchy', animal: 'mouse'}, {name: 'Stimpy', animal: 'cat'}, {name: 'Daffy', animal: 'duck'}, {name: 'Scratchy', animal: 'cat'}, {name: 'Ren', animal: 'dog'}, {name: 'Felix', animal: 'cat'}]
+
+// 8. Write a function that takes an array like toonimals and returns an array with only the toons that are cats.
