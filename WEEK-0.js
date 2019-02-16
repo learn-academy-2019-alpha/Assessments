@@ -1,51 +1,93 @@
-// Consider this variable:
-
-var mantra = "Be the dev";
-
-// 1. Write the code that returns 'B' from mantra.
-added text
-// 2. Write the code that determines if there is a 'x' in mantra.
-
-// 3. Write the code that determines if there is a 'v' in mantra.
-
-// Stretch: Write the code that returns the position of 'v' in mantra.
-
-
-// Consider the following statement:
-
-var codingIsEasy
-var imBored
-
-if (codingIsEasy && imBored) {
-    console.log("I need more!")
-} else {
-    console.log("Steady as she goes")
-}
-
-// 4. Update the codingIsEasy and imBored variables above the statement to the values required to log "I need more!"
-
-// Consider the following statement:
-
-var imLost
-var imFrustrated
-
-if (imLost || imFrustrated) {
-    console.log('Break time!')
-} else {
-    console.log('Keep coding!')
-}
+// // Consider this variable:
+//
+// var mantra = "Be the dev";
+//
+// // 1. Write the code that returns 'B' from mantra.
+// console.log(mantra.charAt(0));
+//
+// // 2. Write the code that determines if there is a 'x' in mantra.
+//
+// if (mantra.includes("x")){
+//     console.log("Yes, there is a X");
+// } else {
+//     console.log("No there is not a X");
+// }
+//
+// // // 3. Write the code that determines if there is a 'v' in mantra.
+// //
+// // if (mantra.includes("v")){
+// //     console.log("Yes, there is a V");
+// // } else {
+// //     console.log("No there is not a V");
+// // }
+// //
+// // // Stretch: Write the code that returns the position of 'v' in mantra.
+// //
+// // var position = mantra.indexOf("v")
+// // return console.log(position);
+//
+// // Consider the following statement:
+//
+// var codingIsEasy = true
+// var imBored = true
+//
+// if (codingIsEasy && imBored) {
+//     console.log("I need more!")
+// } else {
+//     console.log("Steady as she goes")
+// }
+//
+// // 4. Update the codingIsEasy and imBored variables above the statement to the values required to log "I need more!"
+//
+// // Consider the following statement:
+//
+// var imLost = false
+// var imFrustrated = false
+//
+// if (imLost || imFrustrated) {
+//     console.log('Break time!')
+// } else {
+//     console.log('Keep coding!')
+// }
 
 // 5. Update the imLost and imFrustated variables above the statement to the values required to log "Keep coding!"
 
 // 6a. Recall the mantra variable from the first question. Write the code that logs each letter of mantra using a for loop.
 
-// Stretch: Using a while loop.
+// var mantra = "Be the dev";
+//
+// for(let i = 0; i < mantra.length; i++){
+//     console.log(mantra[i]);
+// }
 
+// Stretch: Using a while loop.
+// var mantra = "Be the dev";
+//
+// let i = 0
+// while(i < mantra.length){
+//     console.log(mantra[i]);
+//     i++;
+}
 // Super Stretch: Using forEach().
+
+// var mantra = "Be the dev";
+//
+// mantra.forEach(function(element) {
+//     console.log(element);
+// });
+
 
 // Consider the following variable:
 
 var message = "thisisateststring"
+
+function noVowels(array){
+
+    for(let i = 0; i < message.length; i++){
+        if
+    }
+
+}
 
 // 7. Write a function that takes a string like message as an argument and returns the string without vowels.
 
