@@ -1,3 +1,6 @@
+// I accidently pushed my completed changes to my master branch before reading the README
+// instructions about the pull request FYI.
+
 // Consider this variable:
 
 var mantra = "Be the dev";
