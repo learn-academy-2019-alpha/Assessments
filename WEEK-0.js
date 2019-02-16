@@ -59,43 +59,61 @@ mantra2.forEach(function(element) {
 // Consider the following variable:
 
 var message = "thisisateststring"
-var message1 = 4
 
 // 7. Write a function that takes a string like message as an argument and returns the string without vowels.
 
 // Route #1
-// function noVowelsAllowed() {
-//   console.log(message.replace(/[aeiou]/gi, ""));
-// }
-// noVowelsAllowed();
+function noVowelsAllowed() {
+  console.log(message.replace(/[aeiou]/gi, ""));
+}
+noVowelsAllowed();
 
 // Route #2
-// var message = "thisisateststring";
-// var chars = message.split("");
-// var newChars = [];
-//
-// function noVowels(str) {
-//     for (i=0; i < str.length; i++) {
-//         if (str[i] !== "a" && str[i] !== "e" && str[i] !== "i" && str[i] !== "o" && str[i] !== "u" && str[i] !== "y") {
-//             newChars.push(str[i]);
-//         }
-//     }
-//     return newChars.join("");
-// }
-// console.log(noVowels(chars));
+var message = "thisisateststring";
+var chars = message.split("");
+var newChars = [];
+
+function noVowels(str) {
+    for (i=0; i < str.length; i++) {
+        if (str[i] !== "a" && str[i] !== "e" && str[i] !== "i" && str[i] !== "o" && str[i] !== "u" && str[i] !== "y") {
+            newChars.push(str[i]);
+        }
+    }
+    return newChars.join("");
+}
+console.log(noVowels(chars));
 
 // Stretch: Update your function to throw an exception if the argument is not a string.
-// function noVowelsAllowed() {
-//   if (typeof message1 !== "string") {
-//     console.log("Error: This is not a string");
-//   }
-//   console.log(message.replace(/[aeiou]/gi, ""));
-// }
-// noVowelsAllowed();
-// Super Duper Stretch: Update your function to throw a TypeError if the argument is not a string.
+function noVowelsAllowed() {
+  if (typeof message !== "string") {
+    console.log("Error: This is not a string");
+  }
+  console.log(message.replace(/[aeiou]/gi, ""));
+}
+noVowelsAllowed();
 
+// Super Duper Stretch: Update your function to throw a TypeError if the argument is not a string.
+function noVowelsAllowed() {
+  if (typeof message !== "string") {
+    console.log(new TypeError("Error! This is not a string!"));
+  }
+  console.log(message.replace(/[aeiou]/gi, ""));
+}
+noVowelsAllowed();
 // Consider the following variable:
 
 var toonimals = [ {name: 'Itchy', animal: 'mouse'}, {name: 'Stimpy', animal: 'cat'}, {name: 'Daffy', animal: 'duck'}, {name: 'Scratchy', animal: 'cat'}, {name: 'Ren', animal: 'dog'}, {name: 'Felix', animal: 'cat'}]
 
 // 8. Write a function that takes an array like toonimals and returns an array with only the toons that are cats.
+
+var cats = []
+
+toonimals.forEach(function(pets) {
+  if (pets.animal === 'cat') {
+    cats.push(pets.name)
+  }
+});
+console.log(cats);
+
+// This one was a struggle for awhile. I realize that there is a better way to do this using .filter and .map but even after
+// researching .map, it still brings difficulties trying to implement it here within this exercise.
