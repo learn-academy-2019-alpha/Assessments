@@ -113,5 +113,13 @@ console.log(nostring(newChars));
 var toonimals = [ {name: 'Itchy', animal: 'mouse'}, {name: 'Stimpy', animal: 'cat'}, {name: 'Daffy', animal: 'duck'}, {name: 'Scratchy', animal: 'cat'}, {name: 'Ren', animal: 'dog'}, {name: 'Felix', animal: 'cat'}]
 
 // 8. Write a function that takes an array like toonimals and returns an array with only the toons that are cats.
-
-function
+var newtoons = [];
+function cats(names){
+  for(i = 0; i < names.length; i++){
+    if(names[i].animal === "cat"){
+      newtoons.push(names[i].name);
+    }
+  }
+  return newtoons
+}
+console.log(cats(toonimals));
