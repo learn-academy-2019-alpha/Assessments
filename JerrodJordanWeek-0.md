@@ -29,6 +29,6 @@ Mutators are methods to change a variable and accessors return a value. If you w
 console.log is a way for the code to tell you, the programmer something and return is a mechanism for the machine to tell another part of its program something. You may use console.log() over return to help while debugging.
 
 
-#### 6. What is one thing we did in class this week that helped you learn the most?  
+#### 6. What is one thing we did in class this week that helped you learn the most?
 
-The thing that has helped me learn the most last week was paired programming. Working with someone else and talking through ideas really helped me out. 
+The thing that has helped me learn the most last week was paired programming. Working with someone else and talking through ideas really helped me out.
