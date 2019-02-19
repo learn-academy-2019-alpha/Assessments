@@ -11,7 +11,7 @@
 1. Open the repo in atom on your computer
 2. Choose the week you want to work on and rename the file to your name (first and last) and the week number
 3. Run `git add .` to add your files to staging
-4. Run `git commit` to "save" your progress save the changes to your staged files
+4. Run `git commit` to 'save' the changes to your staged files
 4. Finally, run `git push` your changes to Github
 
 
