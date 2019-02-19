@@ -3,7 +3,7 @@
 var mantra = "Be the dev";
 
 // 1. Write the code that returns 'B' from mantra.
-
+console.log(mantra.charAt(0))
 // 2. Write the code that determines if there is a 'x' in mantra.
 
 // 3. Write the code that determines if there is a 'v' in mantra.
