@@ -4,7 +4,7 @@
 
 1. Click the "Fork" button on the top right (under the navbar)
 2. You will now find your own copy of the project saved under your repositories
-3. `git clone` your copy onto your machine
+3. `git clone` your copy of the assessments onto your machine
 
 ## Make your changes and push your progress:
 
@@ -19,9 +19,10 @@
 
 1. Make sure you have pushed your local changes 
 2. Go to your assessment repo on Github to check that the version there is what you want to submit
-3. Go to your organization's Assessment repo
+3. Go to your cohort organization's Assessment repo
 4. Click the "New Pull Request" button
-5. On the pull request page, find the link to "compare across forks" and click it
+5. On the pull request page, select your cohort's repo from the dropdown. This will cause the pull request page to update.
+6. On the updated pull request page, find the link to "compare across forks" and click it
 6. You will see two forks - find the "head" fork dropdown (3rd from the left), find and select your repo
 7. Give your pull request a title and any notes, then click "Create"
 
