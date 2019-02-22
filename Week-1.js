@@ -1,29 +1,19 @@
-// 1. Write an anonymous function that takes one argument of type number and decides if that number is evenly divisble by three or not. If it is, print the number and "is divisible by three". If it is not, print that the number "is not divisble by three".
+//-----------JavaScript Practical Assessment Week 1
 
-// 2. Write about yourself using an object. Include at least three properties of you and store your object in a variable with your name.
+// 1. Write an anonymous function that takes one argument of type number and decides if that number is evenly divisble by three or not. If it is, print the number and "is divisible by three" or, print the number and "is not divisble by three".
 
-// 3. Create an array with at least 4 items inside it. Show how to access two values from the array in two different ways.
+// 2. Write an object called helloMe. Include your first_name, last_name and at least two other properties of you. Write a function that returns a description of you.
 
-// 4. Have the function AlphabetSoup(str) take the "str" parameter being passed and return a string with the letters in alphabetical order (ie. hello becomes ehllo). Assume no numbers or punctuation symbols will not be included in the parameter. 
+// 3. Create an array of 5 grocery items. Write a function that returns the first, middle, and last item as a string.
 
-// Input:"hooplah"
-// Output:"ahhloop"
+// 4. Write a function called alphabetSoup that takes an argument of "str" and return a string with the letters in alphabetical order (ie. learn becomes aelnr). Assume numbers and punctuation symbols will not be included in the parameter.
 
-function AlphabetSoup(str) {
+// 5. Given the arrays below, write a function animalNums that uses a for loop to print one value from each array concatenated together.
 
-    // your code goes here  
-	
-	return str; 
-}
+var nums = [9, 5, 88, 2, 5, 42, 57]
 
-// keep this function call here 
+var nouns = ["ducks", "elephants", "pangolin", "rhinoceros", "giraffes", "penguins", "llamas"]
 
-AlphabetSoup(readline());   
+// output should be: "9 ducks", etc
 
-// 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?
-
-var nums = [1, 5, 88, 2, 5, 42, 57, 101]
-
-var nouns = ["ducks", "telephone booth", "the enterprise", "robots", "amazon", "eraser", "zafod", "a"]
-
-// output of the first function should be: "1 ducks"
+//6. Create an array of 5 numbers. Write a function that loops through the array and returns a new array of the numbers multiplied by 5.
