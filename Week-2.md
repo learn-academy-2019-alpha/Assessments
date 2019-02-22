@@ -1,69 +1,39 @@
-### Week 2 Assessment
+# Week 2 Assessment
 
-Try your best to answer each question on your own before looking up the answer online. Once you're done writing your first answer, you can google the question and write the best answer you find.
+### Without using Google answer the following:
 
-#### 1. How do you link a css file to your html page?
- 
- //Your Answer
- 
- 
- //Googled Answer
- 
- 
- #### 2. What is a css class? How do you use declare one in html? When should you use an id instead of a class?
- 
- //Your Answer
- 
- //Googled Answer
- 
- 
-#### 3. The class "heading-box" exists in our html file - write the css code that would:
+1. What is the difference between .map() and .filter()?
 
-##### 1) align this box to the center of its container, 
-##### 2) give it a black border that is 5px wide,
-##### 3) make its text appear in the center of the box
+2. Why would you use object destructuring?
+
+3. What is the difference between var, let, and const?
+
+4. Why is testing important?
+
+5. What is a higher order function?
+
+6. What is the difference between a class and an object?
+
+7. What did you learn during the group project this week? Please include any additional feedback you may have.
 
 
-#### 4. What is Bootstrap? Explain a few reasons that you might choose to use it in a project?
- 
- //Your Answer
- 
- 
- //Googled Answer
- 
- 
-#### 5. Name 4 semantic html tags.
+### HTML/CSS Review questions: First, try to answer each question on your own then Google the answer to further your knowledge.
 
-#### 6. What is block scope that became available in ES6? Include how it differs from javascript's local and global scope, and what variables are block scoped. 
- 
- //Your Answer
- 
- 
- //Googled Answer
- 
- #### 7. What is front end development? Can you identify any tools/skills that are uniquely required of front end developers?
- 
- //Your Answer
- 
- 
- //Googled Answer
- 
- 
- #### 8. Choose one of the new ES6 concepts we learned about this week (namely: block scope, classes, and string interpolation) and write example code that demonstrates the concept, with comments to explain what is going on. 
- 
- 
- #### 9. What is the difference between a div and a span? 
- 
- 
- //Your Answer
- 
- 
- //Googled Answer
-   
-   
-#### 10. How would you explain the idea of "inheritance" in object oriented programming?
- 
- 
- //Your Answer
- 
- //Googled Answer
+1. How do you link a CSS file to your HTML page?
+
+2. What is the difference between a div and a span?
+
+3. What is a CSS class? When should you use an id instead of a class?
+
+4. Name 4 semantic HTML tags.
+
+5. What are three options for creating responsive design?
+
+
+### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
+
+1. What is front end development? Can you identify any tools/skills that are uniquely required of front end developers?
+
+2. What is block scope in JavaScript?
+
+3. How would you explain the idea of "inheritance" in object oriented programming?

@@ -1,54 +1,41 @@
-### Week 1 Assessment
+# Week 1 Assessment
 
-These are potential interview questions. Try your best to answer each question on your own before looking up the answer online.
+### Without using Google answer the following:
 
-#### 1. Name all of the data types in Javascript, mark which are primitives. 
+1. List the data types in Javascript. Indicate which are primitives.
 
-  //Your Answer
-  
-  
-  //Googled Answer
+2. What's the difference between =, ==, and === in JavaScript?
 
+3. What is the difference between an array's index and length?
 
-#### 2. Look at this Javascript and try to predict, what will the browser's console show? 
+4. What are the three parts of a for loop?
+
+5. What is a function's declaration, argument, and call?
+
+6. What are the three main steps in saving work to github?
+
+7. What is the terminal command to move directories?
+
+8. Do you have a suggestion for a Check In question?
+
+9. What was your favorite topic this week?
+
+10. What was your "A-ha!" moment this week?
+
+### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
+
+1. Look at this Javascript and try to predict, what will the browser's console show?
 
 ``` javascript
-
-var text = 'outside';
+var text = 'outside'
 function logIt(){
-    console.log(text);
-    var text = 'inside';
-};
+    console.log(text)
+    var text = 'inside'
+}
 
-logIt();
-
+logIt()
 ```
 
-first Guess: 
+2. What is JSON? How does it relate to javascript objects?
 
-
-Then, past the code in your console and explain why you were right/wrong. 
-
-
-#### 3. What is JSON? How does it relate to javascript objects?
-
-  //Your Answer
-  
-  
-  //Googled Answer
-
-
-#### 4. Describe a closure, what is it good for and how do you recognize one?
-
-  //Your Answer
-  
-  
-  //Googled Answer
-  
-
-#### 5. What's the difference between =, ==, and === in JavaScript?
-
-  //Your Answer
-  
-  
-  //Googled Answer
+3. Describe a closure, what is it good for and how do you recognize one?
