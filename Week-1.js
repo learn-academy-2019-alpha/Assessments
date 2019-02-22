@@ -2,11 +2,56 @@
 
 // 1. Write an anonymous function that takes one argument of type number and decides if that number is evenly divisble by three or not. If it is, print the number and "is divisible by three" or, print the number and "is not divisble by three".
 
+annon = (numb) => {
+  if (numb % 3 === 0) {
+    console.log('is divisible by three');
+  } else if (numb % 3 !== 3) {
+    console.log('is not divisble by three');
+  }
+}
+
+annon(9)
+
+
 // 2. Write an object called helloMe. Include your first_name, last_name and at least two other properties of you. Write a function that returns a description of you.
+
+// let helloMe = {
+//   firstName: 'Luke',
+//   lastName: 'Schoenberger',
+//   middleName: 'Jacob',
+//   homeState: 'Colorado'
+// }
+//
+// describe = (first, last, middle, state) => {
+//   return `My name is ${firstName} ${middleName} ${lastName}. I'm from ${homeState}.`
+// }
+//
+// let { firstName, lastName, middleName, homeState } = helloMe
+//
+// console.log(describe(firstName, lastName, middleName, homeState))
 
 // 3. Create an array of 5 grocery items. Write a function that returns the first, middle, and last item as a string.
 
+let grocItems = ['apples', 'eggs', 'bananas', 'milk', 'bread']
+
+firMiLa = (item) => {
+
+    fml = [item[0], item[Math.round((item.length -1) / 2)], item[item.length - 1]]
+    return fml.join(" ").toString()
+  }
+
+console.log(firMiLa(grocItems))
+
 // 4. Write a function called alphabetSoup that takes an argument of "str" and return a string with the letters in alphabetical order (ie. learn becomes aelnr). Assume numbers and punctuation symbols will not be included in the parameter.
+
+alphabetSoup = (str) => {
+  str1 = [...str]
+  return str1.sort().join('').toString()
+
+}
+
+console.log(alphabetSoup('learn'));
+
 
 // 5. Given the arrays below, write a function animalNums that uses a for loop to print one value from each array concatenated together.
 
@@ -16,4 +61,25 @@ var nouns = ["ducks", "elephants", "pangolin", "rhinoceros", "giraffes", "pengui
 
 // output should be: "9 ducks", etc
 
+animalNums = (num, noun) => {
+
+  for(i = 0; i < num.length; i++) {
+
+    console.log(num[i] + ' ' + noun[i])
+
+  }
+
+}
+
+animalNums(nums, nouns)
+
 //6. Create an array of 5 numbers. Write a function that loops through the array and returns a new array of the numbers multiplied by 5.
+
+arr = [1, 2, 3, 4, 5]
+
+
+mulFive = (num) => {
+  return num.map(x => x * 5)
+}
+
+console.log(mulFive(arr))
