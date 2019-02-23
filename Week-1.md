@@ -9,9 +9,9 @@
 
 2. What's the difference between =, ==, and === in JavaScript?
 
-  1. === is used to compare the value and datatype
-  2. == is used only to compare the value
-  3. = is used to assign a value to a variable
+   === is used to compare the value and datatype
+   == is used only to compare the value
+   = is used to assign a value to a variable
 
 
 3. What is the difference between an array's index and length?
