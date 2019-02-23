@@ -13,8 +13,8 @@ var mantra = "Be the dev";
 
 // Consider the following statement:
 
-var codingIsEasy
-var imBored
+var codingIsEasy = true
+var imBored = true
 
 if (codingIsEasy && imBored) {
     console.log("I need more!")
