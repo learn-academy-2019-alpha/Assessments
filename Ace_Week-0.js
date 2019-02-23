@@ -3,14 +3,31 @@
 var mantra = "Be the dev";
 
 // 1. Write the code that returns 'B' from mantra.
-
+const bReturn = (str) => {
+    return str.charAt(0)
+  }
 // 2. Write the code that determines if there is a 'x' in mantra.
-
+const xCheck = (str) => {
+  if (str.includes("x")) {
+    return `There is an x "${str}""`
+  } else {
+    return `There is no x in "${str}"`
+  }
+}
 // 3. Write the code that determines if there is a 'v' in mantra.
-
+const vCheck = (str) => {
+  if (str.includes("v")) {
+    return `There is a v "${str}""`
+  } else {
+    return `There is no v in "${str}"`
+  }
+}
 // Stretch: Write the code that returns the position of 'v' in mantra.
-
-
+const vPosition = (str) => {
+  if (str.includes("v")) {
+    return str.indexOf("v")
+  }
+}
 // Consider the following statement:
 
 var codingIsEasy = true
@@ -26,8 +43,8 @@ if (codingIsEasy && imBored) {
 
 // Consider the following statement:
 
-var imLost
-var imFrustrated
+var imLost = false
+var imFrustrated = false
 
 if (imLost || imFrustrated) {
     console.log('Break time!')
@@ -38,17 +55,40 @@ if (imLost || imFrustrated) {
 // 5. Update the imLost and imFrustated variables above the statement to the values required to log "Keep coding!"
 
 // 6a. Recall the mantra variable from the first question. Write the code that logs each letter of mantra using a for loop.
-
+const eachLetter = (str) => {
+  for(let i = 0; i < str.length; i++) {
+    console.log(str[i])
+  }
+}
 // Stretch: Using a while loop.
-
+const eachLetterWhile = (str) => {
+  let i = 0
+  while (i < str.length) {
+    console.log(str[i]);
+    i++
+  }
+}
 // Super Stretch: Using forEach().
-
+const eachLetterForEach = (str) => {
+  let splitString = str.split("")
+  splitString.forEach(function(letters) {
+    console.log(letters);
+  })
+}
 // Consider the following variable:
 
 var message = "thisisateststring"
 
 // 7. Write a function that takes a string like message as an argument and returns the string without vowels.
-
+const noVowels = (str) => {
+  let consonants = []
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== "a" && str[i] !== "e" && str[i] !== "i" && str[i] !== "o" && str[i] !== "u") {
+      consonants.push(str[i])
+    }
+  }
+  return consonants.join("")
+}
 // Stretch: Update your function to throw an exception if the argument is not a string.
 
 // Super Duper Stretch: Update your function to throw a TypeError if the argument is not a string.
@@ -58,3 +98,12 @@ var message = "thisisateststring"
 var toonimals = [ {name: 'Itchy', animal: 'mouse'}, {name: 'Stimpy', animal: 'cat'}, {name: 'Daffy', animal: 'duck'}, {name: 'Scratchy', animal: 'cat'}, {name: 'Ren', animal: 'dog'}, {name: 'Felix', animal: 'cat'}]
 
 // 8. Write a function that takes an array like toonimals and returns an array with only the toons that are cats.
+const catsOnly = (arr) => {
+  let cats = []
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].animal === "cat") {
+      cats.push(arr[i].name)
+    }
+  }
+  return cats
+}
