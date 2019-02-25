@@ -24,11 +24,11 @@ var helloMe = {
   ethinicity : "Asian-Indian",
   hair_color : "Black",
   eye_color:"Brown"
-getData: function(){ return `My name is ${this.first_name} ${this.last_name}. I'm ethnically ${this.ethinicity}, and my hair is ${this.hair_color} and eyes are ${this.eye_color} .`  }
+  getData: function(){ return `My name is ${this.first_name} ${this.last_name}. I'm ethnically ${this.ethinicity},
+  and my hair is ${this.hair_color} and eyes are ${this.eye_color} .`}
 }
 
 console.log(helloMe.getData());
-
 
 
 // 3. Create an array of 5 grocery items. Write a function that returns the first, middle, and last item as a string.
@@ -48,7 +48,8 @@ console.log(groceryItems(groceryArray));
 
 
 
-// 4. Write a function called alphabetSoup that takes an argument of "str" and return a string with the letters in alphabetical order (ie. learn becomes aelnr). Assume numbers and punctuation symbols will not be included in the parameter.
+// 4. Write a function called alphabetSoup that takes an argument of "str" and return a string with the letters in alphabetical order (ie. learn becomes aelnr).
+// ßAssume numbers and punctuation symbols will not be included in the parameter.
 
 const alphabetSoup = (str) =>{
   return str.toLowerCase().split('').sort().join('')
