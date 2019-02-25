@@ -25,8 +25,8 @@ var helloMe = {
   first_name : "Krithika",
   last_name : "Jagadeesan",
   ethinicity : "Asian-Indian",
-  hair_color : "Black",
-  eye_color: "Brown",
+  hair_color : "black",
+  eye_color: "brown",
   getData: function(){ return `My name is ${this.first_name} ${this.last_name}. I'm ethnically ${this.ethinicity}, and my hair is ${this.hair_color} and eyes are ${this.eye_color} .`}
 }
 

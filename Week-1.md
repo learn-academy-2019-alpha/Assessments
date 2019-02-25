@@ -43,7 +43,7 @@
 
 10. What was your "A-ha!" moment this week?
 
-    Understanding .map() and .filter() and understanding classes more clearly.
+    Understanding .map() and .filter() and classes more clearly.
 
 ### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
 
@@ -66,4 +66,4 @@ logIt()
 
 3. Describe a closure, what is it good for and how do you recognize one?
 
-     Closure is a collection of all the variables in scope at the time of creation of the function (lexical environment). Closures are useful for making a global variable, local. It gives you access to an outer function’s scope from an inner function. 
+     Closure is a collection of all the variables in scope at the time of creation of the function (lexical environment). Closures are useful for making a global variable, local. It gives you access to an outer function’s scope from an inner function.
