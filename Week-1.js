@@ -6,7 +6,7 @@
 // The function above is actually an anonymous function (a function without a name).
 //Functions stored in variables do not need function names. They are always invoked (called) using the variable name.
 
-let x = function (num){
+let x = (num) => {
   if(num % 3 ===0 ){
     return `${num} is evenly divisible by three.`
   } else {
