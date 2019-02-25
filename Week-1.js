@@ -3,7 +3,10 @@
 // 1. Write an anonymous function that takes one argument of type number and decides if that number is evenly divisble by three or not.
 // If it is, print the number and "is divisible by three" or, print the number and "is not divisble by three".
 
-const evenlyDivisible = (num) => {
+// The function above is actually an anonymous function (a function without a name).
+//Functions stored in variables do not need function names. They are always invoked (called) using the variable name.
+
+let x = function (num){
   if(num % 3 ===0 ){
     return `${num} is evenly divisible by three.`
   } else {
@@ -11,8 +14,8 @@ const evenlyDivisible = (num) => {
   }
 }
 
-console.log(evenlyDivisible(12));
-console.log(evenlyDivisible(35));
+console.log(x(12));
+console.log(x(35));
 
 
 // 2. Write an object called helloMe. Include your first_name, last_name and at least two other properties of you.
@@ -45,10 +48,12 @@ var groceryItems =(item) => {
 
 console.log(groceryItems(groceryArray));
 
+// More precise way to do this
+
 
 
 // 4. Write a function called alphabetSoup that takes an argument of "str" and return a string with the letters in alphabetical order (ie. learn becomes aelnr).
-// ßAssume numbers and punctuation symbols will not be included in the parameter.
+// Assume numbers and punctuation symbols will not be included in the parameter.
 
 const alphabetSoup = (str) =>{
   return str.toLowerCase().split('').sort().join('')
