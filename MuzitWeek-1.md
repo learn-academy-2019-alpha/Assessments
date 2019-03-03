@@ -58,7 +58,7 @@ logIt()
      It would be undefined because it is logged twice.
 
 2.  What is JSON? How does it relate to javascript objects?
-    JOSN is the text format that is closely related to JavaScript. 
+    JOSN is the text format that is closely related to JavaScript.
 
 3.  Describe a closure, what is it good for and how do you recognize one?
     A closure is a function being enclosed in another function. We can recognize it
