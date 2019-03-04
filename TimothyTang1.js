@@ -32,7 +32,7 @@ const groceryBag = (array) => {
   let shoppingBag = array.filter((value, index) => {
     return index % 2 === 0
   })
-  return shoppingBag
+  return shoppingBag.join(" ")
 }
 
 console.log(groceryBag(groceryItems));
@@ -66,8 +66,10 @@ const addingTogether = (array1, array2) => {
 console.log(addingTogether(nums,nouns));
 
 const animalNums = (array1, array2) => {
-  return array1.map((value, index) => value + array2[index])
+  let pleaseWork = array1.map((value, index) => value + array2[index])
+  return pleaseWork.join(" ")
 }
+
 console.log(animalNums(nums, nouns));
 
 
