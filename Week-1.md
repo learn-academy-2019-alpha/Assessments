@@ -51,10 +51,10 @@ function logIt(){
 
 logIt()
 ```
-The console will show 'inside' because that is the value for the variable within the "scope" of the function.
+
 
 2. What is JSON? How does it relate to javascript objects?
 JSON creates javascript objects that hold information; usually user information.
 
 3. Describe a closure, what is it good for and how do you recognize one?
-makes is possible to access something from a "parent". You can use a parent function in another function because of closure. 
+makes is possible to access something from a "parent". You can use a parent function in another function because of closure.

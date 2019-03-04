@@ -70,3 +70,15 @@ var arr1 = [ 2, 4, 5, 7, 9]
 
 const mult5 = arr1.map(v => v * 5)
 console.log(mult5);
+
+
+
+  var text = 'outside'
+  var text = 'inside'
+function logIt(){
+    console.log(text)
+
+
+}
+
+logIt()
