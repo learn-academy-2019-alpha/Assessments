@@ -31,7 +31,7 @@ cd
 I enjoyed testing a lot and introduction to wireframing with websites in Pig Latin
 
 10. What was your "A-ha!" moment this week?
-Didn't have a specific one. I think Friday having everything come together and getting time to work on assesments showed me that I knew more than I thought. 
+Didn't have a specific one. I think Friday having everything come together and getting time to work on assesments showed me that I knew more than I thought.
 ### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
 
 1. Look at this Javascript and try to predict, what will the browser's console show?
