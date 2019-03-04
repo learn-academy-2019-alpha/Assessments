@@ -2,15 +2,15 @@
 
 // 1. Write an anonymous function that takes one argument of type number and decides if that number is evenly divisble by three or not. If it is, print the number and "is divisible by three" or, print the number and "is not divisble by three".
 
-// const divisbleBy = (num) => {
-//   if(num%3 === 0){
-//     return num + " is divisible by three"
-//   } else {
-//     return num + " is not evenly divisible by three"
-//   }
-// }
-//
-// console.log(divisbleBy(5));
+const divisbleBy = (num) => {
+  if(num%3 === 0){
+    return num + " is divisible by three"
+  } else {
+    return num + " is not evenly divisible by three"
+  }
+}
+
+console.log(divisbleBy(5));
 
 // 2. Write an object called helloMe. Include your first_name, last_name and at least two other properties of you. Write a function that returns a description of you.
 
