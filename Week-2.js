@@ -53,6 +53,22 @@
 
 // 4. Write a function called getFib that returns the first 10 numbers of the Fibonacci sequence in an array. [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
+function fibWTF(arr, length){
+  var counter = 2
+  var num1 = arr[0]
+  var num2 = arr[1]
+  var num3 = 0
+
+  while (counter < length){
+    num3 = num1+num2
+    num1=num2
+    num2=num3
+    arr.push(num3)
+    counter++
+  }
+  return arr
+}
+console.log(fibWTF([0,1],10));
 
 //5. Write a function called oddChecker that takes in the fullArr and uses a for loop to return a new array of only odd numbers. Copy and paste your code and refactor using ES6 syntax.
 
