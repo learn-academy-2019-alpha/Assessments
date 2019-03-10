@@ -74,10 +74,10 @@ console.log(mult5);
 
 
   var text = 'outside'
-  var text = 'inside'
+
 function logIt(){
     console.log(text)
-
+   var text = 'inside'
 
 }
 
