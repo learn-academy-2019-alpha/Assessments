@@ -1,30 +1,45 @@
-#### 1. Use Ruby to loop over this array, multiplying each element by 2.
-
+# #### 1. Use Ruby to loop over this array, multiplying each element by 2.
+#
 tempArray = [1, 2, 6, 9, 3, 21]
+tempArray.each do |e|
+  puts e * 2
+end
+#
+# #### 2. From all the built in Ruby methods we've seen in class this week, choose three that you think are particularly helpful and create examples to show how they work.
+# .each
+# ex:
+tempArray = [1, 2, 6, 9, 3, 21]
+tempArray.each do |e|
+  puts e * 2
+end
 
-# your ruby loop here
+.gets.chomps
 
-#### 2. From all the built in Ruby methods we've seen in class this week, choose three that you think are particularly helpful and create examples to show how they work.
+x = .gets.chomp
+"hello #{x}"
 
-# your three built in ruby methods
+.includes?
 
-#### 3. Look at this horrible ruby code, and fix it to be good ruby code. 
+x = "Jerrod"
+x.includes? 'J'
 
-``` ruby
-class example
+#### 3. Look at this horrible ruby code, and fix it to be good ruby code.
+
+
+class Day_Of_Week
   def initialize(day)
-    @day=day
-  end
-  
-  def Say_hi
-    if(day == "Friday"){
-      puts "TGIF!"
-    }
-    elseif(day == "Monday"){
-      puts "Its monday again"
-    }
-    else
-      puts "another day"
+    @day = day
   end
 end
-```
+
+  def say_hi(day)
+    if(day == "Friday")
+        "TGIF!"
+    elsif(day == "Monday")
+      "Its monday again"
+    else
+      "another day"
+  end
+end
+
+p say_hi("Friday")

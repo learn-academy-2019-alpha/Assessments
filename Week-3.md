@@ -4,58 +4,62 @@ Try your best to answer each question on your own before looking up the answer o
 
 #### 1. Here is a list of pros and cons to using the React library to build your application -- but some of them are false. Remove the false statements from the list:
 
-- React was created to be simple, so that even people with minimal code experience could use it and create Single Page Applications (SPAs)
+<!-- - React was created to be simple, so that even people with minimal code experience could use it and create Single Page Applications (SPAs) -->
 - React is a modern, efficient answer to complex UI applications
-- React is a full stack framework for modern web applications
+<!-- - React is a full stack framework for modern web applications -->
 - React is a flexible library that plays the role of V in an MVC framework
 
- 
+
  #### 2. What are "smart"(logic) and "dumb"(display) components? Explain the difference and also add why we bother to make the distinction between them.
- 
- 
+
+
  //Your Answer
- 
- 
+ your "smart" logic is all contained on one component, this contains all your conditionals and also controls your dumb components. Dumb components only contain what is going to display.
+
+
  //Googled Answer
- 
- 
+
+
 #### 3. When we use "yarn add ..." in the terminal - what is yarn doing? And what file will always be automatically updated after we add a package with yarn?
- 
- 
+
+
  //Your Answer
- 
- 
+ It adds a package, and will always update your dependencies
+
+
  //Googled Answer
- 
- 
+
+
 #### 5. There are three mistakes in this code that would cause it to break our application. Find the mistakes and fix them:
 
     import React, { Component } from 'react';
 
-    class Recipes {
+    class extends Recipes Component {
       constructor(props){
         super(props)
         this.state = {
-          recipes: 
+          recipes:
             {name: 'Meatballs'},
             {name: 'Mac & Cheese'}
-      
+
         }
       }
 
       render() {
-    
+
         return (
-    
-          let recipes = this.state.recipes.map(function(recipe){
+
+          <div>
+          {this.state.recipes.map(function(recipe){
             return(
               <li key={recipe.name}>{recipe.name}</li>
             )
           })
-    
+
           <ul>
             {recipes}
           </ul>
+          </div>
         );
       }
     }
@@ -63,28 +67,37 @@ Try your best to answer each question on your own before looking up the answer o
     export default Recipes;
 
 #### 6. Name three html input types. (NOTE: text is the default type - so it doesn't count in this case)
- 
+
  //Your Answer
- 
- 
+ <input type="button">
+ <input type="checkbox">
+ <input type="color">
+
  //Googled Answer
- 
- 
+ <input type="number">
+<input type="password">
+<input type="radio">
+
  #### 7. How would you explain state to a friend who doesn't know code?
- 
+
  //Your Answer
- 
- 
+ state is the starting point / default for something that can be changed within react
+
+
  //Googled Answer
- 
- 
+React controls the data flow in the components with state and props. The data in states and props are used to render the Component with dynamic data. ... React controls the data flow in the components with state and props. The data in states and props are used to render the Component with dynamic data
+
  #### 8. What is the difference between component state and props? Your answer should include a short explanation of both.
- 
- 
+
+
  //Your Answer
- 
- 
+ Component state is something that has been set in react file to be changed, and to pass it to a child component it needs to be changed to a prop.
+
+
  //Googled Answer
- 
-   
+ Props and state are related. The state of one component will often become the props of a child component. Props are passed to the child within the render method of the parent as the second argument to React.createElement() or, if you're using JSX, the more familiar tag attributes.
+
+
 #### 9. Write a paragraph or so about your experience with building tic-tac-toe. Some topics to start with might be: things you learned about yourself, concepts from React that stood out to you, something about pair programming (if you paired), or the experience of building something in code from scratch.
+
+This was very difficult challenge, although it did help with some simpler aspects of react of how to pass a state as a prop to a child component. although when using map and passing the index that got a bit confusing for me. This week I think I want to take some time and rebuild this, to see if I can remember how to do so. Overall I still feel I have a lot to learn with react but knowing it power I am looking forward to learning more about it. 
