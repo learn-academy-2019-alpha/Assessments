@@ -4,12 +4,13 @@ Try your best to answer each question on your own before looking up the answer o
 
 
 #### 1. What is a method in Ruby? How is it different or similar to functions in JavaScript?
+method is similar to JavaScript but instead starts with a "def" and concludes with an "end" and the syntax is reduced significantly
 
-
-#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance. 
+#### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance.
 
 
 [Your Answer]
+
 
 
 [Googled Answer]
@@ -18,11 +19,14 @@ Try your best to answer each question on your own before looking up the answer o
 #### 3. What is rspec and what is the general process for writing tests in RSpec?
 
 //Your Answer
+rspec is a BDD unit tester or we used it as a unit tester
+
+basic process to write the test make sure they fail and then pass, and can take all arguments
 
 //Googled Answer
 
 
-#### 4. Name three possible non-inheritance relationships between ruby objects? 
+#### 4. Name three possible non-inheritance relationships between ruby objects?
 
 //Your Answer
 
@@ -34,9 +38,12 @@ Try your best to answer each question on your own before looking up the answer o
 ```ruby
 x = 1022
 puts "I am printing a random number #{x}"
-```
+not sure what it is called but it is used in string interpolation, an object literal?
+it calls the variable to print into the string and give it back.
 
 #### 6. How do you feel about testing right now? What potential pros/cons/barriers/advantages do you see to implementing BDD in your own code?
+
+I feel good about testing, but I didnt get through the whole process of the challenges I mainly focused on the start questions so i could also reaffirm the function of class and inheritance. it is good in general to unit test so that before you build out a program you can tell if part of it is broken or wont work in a bigger application
 
 //Your Answer
 
@@ -47,7 +54,13 @@ puts "I am printing a random number #{x}"
 
 //Your Answer
 
+instance variable is identified with an @  and doesnt need to be further identified because it is a reference to the scope of the object it exists in, the function normally starts with initialize
+
 //Googled Answer
+Every object has its own scope.
+An object’s scope is populated with instance variables, in the moment we assign something to them. And they are visible everywhere in the object, that is, in every method that the object has.
+the @word associates an instance variable to the local variables name. still unsure about the normal variable?
+
 
 #### 8. Ruby has a great community and tons of free resources to help you learn. Here is the long list of great resources: https://www.ruby-lang.org/en/documentation/. Below are a few popular ones:
 - Interactive Ruby tutorial (http://tryruby.org/levels/1/challenges/0)
