@@ -1,5 +1,10 @@
 // Consider this variable:
 
+
+
+
+
+
 var mantra = "Be the dev";
 
 // 1. Write the code that returns 'B' from mantra.
