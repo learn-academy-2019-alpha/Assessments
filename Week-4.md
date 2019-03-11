@@ -4,16 +4,18 @@ Try your best to answer each question on your own before looking up the answer o
 
 
 #### 1. What is a method in Ruby? How is it different or similar to functions in JavaScript?
-method is similar to JavaScript but instead starts with a "def" and concludes with an "end" and the syntax is reduced significantly
+method in Ruby is similar to JavaScript but instead starts with a "def" and concludes with an "end" and the syntax is reduced significantly
 
 #### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance.
 
 
 [Your Answer]
-
+a class can inherit from another class but the super normally defines the basic attributes then the defining attributes get more 'wordy' so to speak as the objects are developed, so one object can contain all the attributes a super has but can also have other defining attributes that are not shared. so similar to species in the animal kingdom, some things can both be a mammal but may not be the same species of mammal. this helps create a framework for objects to pass information but keep each object defined individually as well
 
 
 [Googled Answer]
+
+Inheritance is when a class inherits behavior from another class. The class that is inheriting behavior is called the subclass and the class it inherits from is called the superclass. We use inheritance as a way to extract common behaviors from classes that share that behavior, and move it to a superclass.
 
 
 #### 3. What is rspec and what is the general process for writing tests in RSpec?
@@ -24,11 +26,13 @@ rspec is a BDD unit tester or we used it as a unit tester
 basic process to write the test make sure they fail and then pass, and can take all arguments
 
 //Googled Answer
+it is a testing library
 
 
 #### 4. Name three possible non-inheritance relationships between ruby objects?
 
 //Your Answer
+
 
 //Googled Answer
 
